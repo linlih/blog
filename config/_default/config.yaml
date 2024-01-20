@@ -108,4 +108,13 @@ enableRobotsTXT: true
 # Compress all files when output
 minify:
   minifyOutput: true
-  
+
+frontmatter:
+  lastmod:
+    - :git
+    - lastmod
+    - modified
+    - date
+    - publishdate
+    - pubdate
+    - published
