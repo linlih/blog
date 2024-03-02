@@ -94,16 +94,22 @@ eval "$(starship init zsh)"
 # fzf
 fzf 是一个模糊搜索工具，暂时还没发挥它的完全作用，得再研究一下：
 
+```bash
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
 
-安装命令：~/.fzf/install
+安装命令：`~/.fzf/install`
 
 安装完成后需要在 `.zshrc` 中添加：
 ```bash
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ```
 
-触发的快捷键是 CTRL+R
+查询输入历史命令的快捷键：`CTRL+R`
+
+查找目录的快捷键是：`ALT+C`
+
+查找文件的快捷键是：`CRTL+T`
 
 # 参考链接
 https://www.youtube.com/watch?v=AK2JE2YsKto
