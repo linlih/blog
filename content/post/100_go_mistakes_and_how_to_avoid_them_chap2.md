@@ -28,7 +28,7 @@ tags:
 # Disable table of content int this post
 # Notice: By default will automatic build table of content 
 # with h2-h4 title in post and without other settings
-#toc: false
+#toc: true
 # Absolute link for visit
 #url: "100_go_mistakes_and_how_to_avoid_them_chap2.html"
 # Sticky post set-top in home page and the smaller nubmer will more forward.
